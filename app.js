@@ -1,5 +1,5 @@
 const readlineSync = require("readline-sync");
-const { generarNumeroAleatorio, verificarAdivinanza } = require("./adivinanza");
+const { generarNumeroAleatorio, verificarAdivinanza } = require("./adivinanza.js");
 const obtenerNumeroUsuario = () => {
   return readlineSync.question("Ingresa un número: ");
 };
